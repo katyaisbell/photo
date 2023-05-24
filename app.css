@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Raiders";
+  src: url("./font/Raiders.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  font-size: 12px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.left,
+.right {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.left {
+  background: #d4cabeff;
+  left: 0%;
+  width: 0%;
+}
+
+.right {
+  background: #3e3735ff;
+  right: 0%;
+  width: 100%;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+}
+
+.nav ul li {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 8px;
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+.nav .logo {
+  flex: 1;
+}
+
+/* .nav .pricing {
+  flex: 1;
+} */
+
+.img-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 180px;
+}
+
+.img-wrapper .katya {
+  background-image: url("./img/melanie-3.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 0;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 180px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0 100px;
+}
+
+.info ul li {
+  display: inline-block;
+  padding: 20px 60px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.text {
+  position: absolute;
+  top: 58%;
+  right: 100px;
+  transform: translateY(-50%);
+}
+
+.text h1 {
+  font-size: 80px;
+  color: #fff;
+  font-family: "Raiders";
+  text-transform: uppercase;
+}
+
+.text p {
+  font-size: 20px;
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+.name {
+  position: absolute;
+  top: 56.2%;
+  left: -270px;
+  transform: translateY(-50%);
+  font-size: 80px;
+  font-family: "Raiders";
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+}
+
+.bottomnav {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+}
+
+.bottomnav ul li {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  margin-top: 20px;
+}
