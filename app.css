@@ -53,14 +53,15 @@ ul {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 600;
   padding: 0 10px;
 }
 
-.nav .logo {
+/* .nav .logo {
   flex: 1;
-}
+
+} */
 
 /* .nav .pricing {
   flex: 1;
@@ -73,9 +74,10 @@ ul {
 }
 
 .img-wrapper .katya {
-  background-image: url("./img/melanie-3.jpg");
+  display: flex;
+  background-image: url("./img/sarah-12.jpg");
   background-size: cover;
-  height: 650px;
+  height: 1100px;
   width: 0;
 }
 
@@ -104,7 +106,7 @@ ul {
 }
 
 .text h1 {
-  font-size: 80px;
+  font-size: 90px;
   color: #fff;
   font-family: "Raiders";
   text-transform: uppercase;
@@ -121,7 +123,7 @@ ul {
   top: 56.2%;
   left: -270px;
   transform: translateY(-50%);
-  font-size: 80px;
+  font-size: 90px;
   font-family: "Raiders";
   text-transform: uppercase;
   color: transparent;
